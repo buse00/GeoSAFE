@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2b8244"
+    android:orientation="vertical"
+
+    >
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:text="Vous êtes disponible !"
+        android:textColor="#ffffff"
+        android:id="@+id/textView2"
+        android:layout_weight="4"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:src="@drawable/icononlyreversed"
+        android:layout_weight="5"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:text="glissez pour devenir indisponible"
+        android:textColor="#ffffff"
+        android:id="@+id/textView3"
+        android:layout_weight="3"/>
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:src="@drawable/swiperight"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:layout_weight="2"
+        />
+
+</LinearLayout>
